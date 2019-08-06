@@ -19,7 +19,7 @@ end
 def find_min_value(array)
   counter = 0
   while counter < array.length do
-    maxNum = array.min
+    minNum = array.min
     counter +=1
   end
   return minNum
