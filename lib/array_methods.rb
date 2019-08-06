@@ -9,7 +9,6 @@ def find_element_index(array, value_to_find)
 
 def find_max_value(array)
   counter = 0
-  bigCounter = 0;
   while counter < array.length do
     maxNum = array.max
     counter +=1
